@@ -1,0 +1,8 @@
+<system>The products are rated on a 5-point scale from 1 to 5. The higher the number, the more satisfied the user is with the product.
+Based on the given reviews, predict the rating value of the product.
+Output only the predicted rating given by the interviewee to this product in the form of something like "Rating: 3".
+
+Product title: "[PRODUCT_NAME]"
+Review text: "[REVIEW]"
+Predict the rating that the customer who wrote this review gave to the product. Let’s think step by step: </system>
+<user></user>

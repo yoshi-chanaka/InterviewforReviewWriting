@@ -1,0 +1,3 @@
+./static/copy_url.png[IMAGE]Good! Choose one product from an e-commerce site such as <a href= "https://www.amazon.com/" target="_blank">Amazon.com</a> that you have touched. [NL]Then copy and paste the product page's URL, i.e., the red highlighted part in the figure below.
+./static/copy_title.png[IMAGE]Thanks! Next, copy and paste the product name from the previous URL, i.e., the text in the red highlighted area in the figure below.
+Great! You are now ready for an interview. Start it with your interviewer.

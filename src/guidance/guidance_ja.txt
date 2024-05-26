@@ -1,0 +1,2 @@
+./static/copy_title.png[IMAGE]良いですね！レビューを創る準備として，まず<a href= "https://www.amazon.co.jp/" target="_blank">Amazon</a>から商品を1つ選択してください．[NL]選んだら，この図の赤くハイライトされた部分のように，商品ページのURLのみをコピー&ペーストしてください．
+ありがとうございます！では，対話を始めましょう！

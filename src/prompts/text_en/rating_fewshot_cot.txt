@@ -1,0 +1,62 @@
+<system>The products are rated on a 5-point scale from 1 to 5. The higher the number, the more satisfied the user is with the product.
+Based on the given product review written by the customer who touched the product, predict the customer's rating of the product.
+Add only one predicted rating to the end of your output in the form of something like "Rating: 3".
+
+
+Product title: "Harry Potter Paperback Box Set (Books 1-7)"
+Review text: "I put off reading the Harry Potter series for so, so long as I thought it would be too juvenile. (I didn't see the movies, either). I love fantasy fiction, but I'm more apt to read the works of Terry Goodkind or Terry Brooks as opposed to books intended for young adults. I am incredibly glad that I gave the Harry Potter series a chance. While the first couple of books are definitely geared towards young adult readers, the world, the characters, and the story that Rowling creates are all so fascinating and fun that it really doesn't matter. I'm currently reading the series a 2nd time and I'm enjoying them even more than I did the 1st time. These books are absolutely timeless classics and are among my all-time favorite books.
+
+I've seen all the movies now, after reading the books. The movies were just fine, but the books are so much better. If you've seen the movies and liked them but didn't read the books, you're missing SO much amazing content that truly makes the Wizarding World as magical as it is.
+
+The hardcover books make for a wonderful collector's set. I didn't really care about the case they came in, as I prefer to display them on a bookshelf with the rest of my hardcover books."
+What rating would the customer who wrote this review give to the product? Let's think step by step: The customer describes this series as "timeless classics" and states that these books are among "my all-time favorite books." These words indicate that they have a very positive impression of this product.
+The customer is apt to read the works of Terry Goodkind or Terry Brooks rather than books for young adults.
+The customer has now begun reading the second installment and has even seen all of the movies in the series, indicating that they are hooked on this work.
+From positive claims such as these, it can be expected that customers gave the product a high rating. Moreover, no dissatisfaction is claimed. Therefore, it is reasonable to expect that the customer would have given the product the highest score of 5.
+Rating: 5
+
+Product title: "J.VER Men's Dress Shirts Solid Long Sleeve Stretch Wrinkle-Free Formal Shirt Business Casual Button Down Shirts"
+Review text: "This is a great shirt. The colours are amazing and the texture is nice and not too thick so it doesn't trap the heat.
+
+Downfall to this is that the shirt itself doesn't have any labels stating the material (not sure if the product description has it) so the sleeve on mine got burned while ironing. I'm not even sure if they were made for ironing but if you do iron it, be careful not to have it on high.
+
+If this product had information and warning labels it would have gotten 5 stars but either way I plan to buy more colours."
+What rating would the customer who wrote this review give to the product? Let's think step by step: First, the customer describes the shirt as "a great shirt". The color, texture, and comfortable thickness are all cited as reasons for this, indicating high satisfaction.
+On the other hand, the shirt doesn't have any information or warning labels regarding the material, and the customer burnt the sleeve when ironing it.
+Despite the product's lack, the customer said, "If this product had information and warning labels it would have gotten 5 stars". Therefore, they would have given this product a rating of 4.
+Rating: 4
+
+Product title: "Corsair Wired K60 RGB Pro Mechanical Gaming Keyboard - CHERRY Mechanical Keyswitches - Durable AluminumFrame - Customizable Per-Key RGB Backlighting, Black"
+Review text: "I got this in May and within about 2 months or less, the 'P' key started to double type, once when pressed down and once when lifted. It has been noticeable when typing slow but will happen with a quick tap. That starts happening then about 2 weeks later, the stem of the 'D' key snapped and I had to glue it back together which kept it working. I just now am trying to send it out for an RMA which I will be without my good keyboard for probably over a week, maybe more since this always takes forever.
+
+Sadly, when the keyboard works fine with no issues, it is a great one. Keys feel very good, very short activation point but the Viola switches feel nice. Definitely worth it just beware since Corsair seems to have really been lacking lately in the QA department. I have had about 5 products from them now that just don't work properly and it is incredibly annoying and I don't think I will be buying anything from them due to the lack of good quality over a period of time."
+What rating would the customer who wrote this review give to the product? Let's think step by step: The customer has several disappointments with this keyboard. First, the "P" key started to double type after only two months of purchase. Furthermore, two weeks later, the stem of the "D" key snapped off. The customer intends to send it for RMA, but it always takes so long that he will find it inconvenient.
+On the other hand, the customer says that the keys and viola switches feel great.
+In summary, the customer has several dissatisfied but also acknowledges the good aspects when it is working fine. Overall, this is not an extremely negative evaluation.
+Based on the above, the customer would give the product a rating of 3.
+Rating: 3
+
+Product title: "Lasko Oscillating Pedestal Fan, Adjustable Height, 3 Speeds, for Bedroom, Living Room, Home Office and College Dorm Room, 18", Black, 1827"
+Review text: "The motor and fan blades work well, though settings 2 and 3 are quite loud.
+
+The fan shroud is made of cheap plastic, the pole pretty much just sits in the base and the motor pretty much just sits on the pole, though both do stay "attached", so far. Imo, screws or bolts should have been used.
+The extension part works, though you may need to really tighten the nut to keep it from falling down.
+The fan speed knob on mine came cracked (3 separate cracks) where it attaches to the speed controller. I put heat shrink around it to tighten it up and hopefully to keep it from getting worse.
+
+Two stars because its primary function (blowing air) works well, but I don't recommend nor would I ever purchase again."
+What rating would the customer who wrote this review give to the product? Let's think step by step: This customer would give this product a rating of 2 since they directly said "Two stars". As evidence to support this low rating, the customer cited the strong cheapness of the product. In addition, The fan speed knob came cracked.
+Although the primary function (blowing air) seems to work well, they also said "I don't recommend nor would I ever purchase again" so the rating given by the customer would not be by no means high.
+Rating: 2
+
+Product title: "BRONAX Pillow Slippers for Women and Men | House Slides Shower Sandals | Extremely Comfy | Cushioned Thick Sole"
+Review text: "I bought these to wear around the house. My feet ache when walking on hard floors barefoot all day. I had high hopes these would help since they had such great reviews, but I dont like them one bit. They do NOT run large as others have suggested. My toes can't splay. My big toes and the inner side of my feet are being pushed outwards, which is very uncomfortable. It feels like they're at an odd angle. I wore them for less than an hour and I started feeling pain in my knee. The more I wear them, the more it feels like I have the slippers on the wrong foot."
+What rating would the customer who wrote this review give to the product? Let's think step by step: The customer had high expectations seeing that this product had great reviews. However, based on their experience, they have a negative opinion of this product.
+First, they are dissatisfied that the slippers don't run as large as suggested. In addition, the customer experienced discomfort with their toes that did not spread and felt like they were on the wrong feet. The customer also reported feeling knee pain within an hour of wearing the slippers.
+As described above, it is clear that customers would give a low rating because the customer reflects their strong dissatisfaction and discomfort with the product in the review. Additionally, there seem to be no mentions of any positive aspects.
+Based on the experience, the customer would give a rating of 1, which is the lowest possible rating, for this product.
+Rating: 1
+
+Product title: "[PRODUCT_NAME]"
+Review text: "[REVIEW]"
+What rating would the customer who wrote this review give to the product? Let's think step by step: </system>
+<user></user>
