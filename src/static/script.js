@@ -16,7 +16,6 @@ function addutterance(text) {
     });
 }
 
-
 $(document).ready(function () {
 
     $('#send-button').click(addElement);
@@ -31,12 +30,12 @@ $(document).ready(function () {
     $init_textarea.height(init_lineHeight);
     ControlHeight();
 
-    $(function(){
-        $('#send-message').keydown(function(e){
-            if (event.ctrlKey){
+    $(function () {
+        $('#send-message').keydown(function (e) {
+            if (event.ctrlKey) {
                 if (e.keyCode === 13) {
                     addElement();
-                return false;
+                    return false;
                 }
             }
         })
@@ -44,14 +43,14 @@ $(document).ready(function () {
 
     async function addElement() {
         var text = $('#send-message').val();
-        if (text.trim().length && mode==0) {
+        if (text.trim().length && mode == 0) {
             // 準備
             addutterance(text).pipe(
                 function () {
                     $.ajax({
                         url: '/post_guidance',
                         type: 'POST',
-                        data: { text: text , q_number: guidance_number, worker_id: worker_id, num_guidance: NUM_GUIDANCE},
+                        data: { text: text, q_number: guidance_number, worker_id: worker_id, num_guidance: NUM_GUIDANCE },
                         success: function (response) {
                             $('.chat-history').append(response.element);
                             $('#send-message').val('');
@@ -74,14 +73,14 @@ $(document).ready(function () {
             )
         }
 
-        else if (text.trim().length && mode==1) {
+        else if (text.trim().length && mode == 1) {
             /* ここをChatGPT用に書き換える */
             addutterance(text).pipe(
                 function () {
                     $.ajax({
                         url: '/post_question',
                         type: 'POST',
-                        data: { text: text , q_number: question_number, worker_id: worker_id},
+                        data: { text: text, q_number: question_number, worker_id: worker_id },
                         success: function (response) {
                             if (response.end_sign) {
                                 $('.chat-history').append(response.element);
@@ -112,7 +111,7 @@ $(document).ready(function () {
         $.ajax({
             url: '/post_question',
             type: 'POST',
-            data: {q_number: question_number, worker_id: worker_id},
+            data: { q_number: question_number, worker_id: worker_id },
             success: function (response) {
                 $('.chat-history').append(response.element);
                 $('#send-message').val('');
@@ -128,7 +127,7 @@ $(document).ready(function () {
         $.ajax({
             url: '/terminate_interview',
             type: 'POST',
-            data: {worker_id: worker_id},
+            data: { worker_id: worker_id },
             success: function (response) {
                 $('.chat-history').append(response.element);
                 $('#send-message').val('');
@@ -153,13 +152,11 @@ $(document).ajaxStop(function () {
 
 });
 
-
-
 function ReflectReview(review) {
     $.ajax({
         url: '/interviewresult',
         type: 'GET',
-        data: {review: review},
+        data: { review: review },
         success: function (response) {
         },
         error: function (error) {
@@ -168,7 +165,7 @@ function ReflectReview(review) {
     });
 }
 
-function TextareaToPreventer () {
+function TextareaToPreventer() {
     var send_preventer = document.createElement("div");
     send_preventer.setAttribute("id", "send-preventer");
     send_preventer.textContent = "Wait";
@@ -185,7 +182,7 @@ function ControlHeight() {
     });
 };
 
-async function ScrollHistory(){
+async function ScrollHistory() {
     var scrollerInner = document.querySelector(".chat-history")
     scrollerInner.scrollTop += 1000;
 }
