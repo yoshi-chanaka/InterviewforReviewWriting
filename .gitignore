@@ -3,6 +3,7 @@
 
 # Logs (JSON files)
 data/logs/*.json
+data/cleanup_log.txt
 
 # Python bytecode cache
 **/__pycache__/
