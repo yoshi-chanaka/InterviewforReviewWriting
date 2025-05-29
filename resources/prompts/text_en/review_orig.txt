@@ -1,0 +1,8 @@
+<system>[DIALOGUE]
+
+The above is a dialogue about "[PRODUCT_NAME]" between the interviewer and the interviewee who has touched on this product.
+
+Write a customer review about the product as if written by the interviewee, by briefly summarizing the important information mentioned in the above interview, such as the good and bad points of the product and the interviewee's experience with it.
+Do not output the review's title.
+</system>
+<user>The following is a body of the product review of the product written by the interviewee: </user>

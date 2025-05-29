@@ -1,0 +1,12 @@
+# Python virtual environment
+.venv/
+
+# Logs (JSON files)
+data/logs/*.json
+
+# Python bytecode cache
+**/__pycache__/
+*.py[cod]
+
+# Environment variables
+.env

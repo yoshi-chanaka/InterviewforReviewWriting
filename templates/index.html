@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <title>Review Writing Assistant</title>
+</head>
+
+<body>
+    <section class="container">
+        <header class="chat-header">対話システムとレビューを書こう！</header>
+        <header class="study-attention">
+            <!-- <div id="attention"><strong>※ここでのデータは今後の研究に活用させていただく予定です．ご了承ください．</strong></p> -->
+                <div id="attention"><strong></strong></p>
+        </header>
+        <!--チャット履歴-->
+        <main class="chat-history">
+
+            <div class="msg msg-guide">
+                <div class="msg-contents contents-guide">
+                    <div class="msg-text">
+                        <p>こんにちは！</p>
+                        <p>このページでは，対話システムがあなたのレビューを書くお手伝いをします．</p>
+                        <p>"Send"ボタンか"Ctrl + Enter"を押すとメッセージを送信できます！</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="msg msg-guide">
+                <div class="msg-contents contents-guide">
+                    <div class="msg-text">
+                        <p>レビューを作る準備として，まず<a href= "https://www.amazon.co.jp/" target="_blank">Amazon</a>から商品を1つ選択してください．</p>
+                        <p>選んだら，この図の赤くハイライトされた部分のように，商品名のみをコピー&ペーストしてください．</p>
+                    </div>
+                    
+                </div>
+                <img class="guide_image" src="./static/copy_title.png" width="300"/>
+            </div>
+
+        </main>
+
+        <!--送信-->
+        <form class="input-area">
+            <textarea id="send-message" type="text" style="font-family:Helvetica, sans-serif" placeholder="Enter your message here ...">{{ input }}</textarea>
+            <div id="button-block">
+                <button id="send-button" type="button" style="cursor:pointer">Send</button>
+                <input id="hidden-button" type="submit"></button>
+            </div>
+
+        </form>
+    </section>
+
+
+</body>
+
+</html>

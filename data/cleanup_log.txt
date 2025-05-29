@@ -1,0 +1,3 @@
+Deleted: ./data/logs/2025-05-24-22-15-42-953598_this_is_demo.json at 2025-05-25T12:25:46.586325
+Deleted: ./data/logs/2025-05-24-22-16-20-665998_this_is_demo.json at 2025-05-25T12:25:46.600463
+Deleted: ./data/logs/2025-05-24-22-16-36-329225_this_is_demo.json at 2025-05-25T12:25:46.615331
